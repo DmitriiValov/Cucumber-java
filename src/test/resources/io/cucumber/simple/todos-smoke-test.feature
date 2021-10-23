@@ -33,4 +33,4 @@ Feature: User add item and marked them done
     And   I add new item with the name "Pay for electricity"
     And   I add new item with the name "Change the oil in my Tesla"
     When  I mark single item with the name "Pay for electricity"
-    Then  Counter should show "1 item left"
+    Then  Counter should show "6 items left"
