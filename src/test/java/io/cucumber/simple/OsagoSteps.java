@@ -24,9 +24,7 @@ public class OsagoSteps {
         page.fillCity(params.get(3));
         page.fillNote(params.get(4));
         page.clickAgree();
-//        Selenide.sleep(10000);
-        WebDriver driver = new ChromeDriver();
-//        driver.manage().timeouts().implicitlyWait(100);
+        Selenide.sleep(10000);
     }
 
 

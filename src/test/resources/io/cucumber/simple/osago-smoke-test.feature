@@ -10,8 +10,3 @@ Feature: User calculates Osago
       | none@mail.ru |
       | Новосибирск  |
       | Note note no |
-
-
-
-#    Then  I fill Name Osago claim form with phone "+79236701107"
-
