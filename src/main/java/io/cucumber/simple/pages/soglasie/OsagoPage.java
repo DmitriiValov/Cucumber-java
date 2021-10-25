@@ -22,14 +22,6 @@ public class OsagoPage {
         $(OSAGO_CAPTION).isDisplayed();
     }
 
-//    public void fillWithValue(String value, String field) {
-//        $x(field)
-//                .scrollTo()
-//                .setValue(value)
-//                .sendKeys(Keys.ENTER);
-//
-//    }
-
     public void fillName(String item) {
         $x(OSAGO_CLAIM_FORM_NAME)
                 .scrollTo()
